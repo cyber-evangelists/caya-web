@@ -1,0 +1,20 @@
+{
+  "name": "caya",
+  "version": "1.0.0",
+  "description": "A Flexible Car hire and Ride sharing application",
+  "author": "[@hbru-labs](https://github.com/hbru-labs)",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "hoist": "node ./scripts/hoist.cjs",
+    "ui:dev": "pnpm -C src/ui dev",
+    "ui:build": "pnpm -C src/ui build",
+    "ui:start": "pnpm -C src/ui start",
+    "ui:lint": "pnpm -C src/ui lint"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^10.7.2"
+  }
+}
