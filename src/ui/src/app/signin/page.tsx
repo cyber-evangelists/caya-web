@@ -9,8 +9,8 @@ export default function Login() {
     <div className="w[100vw] min-h-screen flex flex-col justify-center py-12 sm:px-6 lg:px-8 ">
       <div className="sm:mx-auto sm:w-full sm:max-w-md  "></div>
 
-      <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-md ">
-        <div className="bg-white py-8 px-4 shadow sm:rounded-lg sm:px-10  bg-slate-800">
+      <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-md bg-slate-800 ">
+        <div className="py-8 px-4 shadow sm:rounded-lg sm:px-10 bg-slate-800">
           <form className="space-y-6" action="#" method="POST">
             <div>
               <h2 className="mt-6 text-center text-3xl font-bold bg-gradient-to-r from-[#00C4FF] to-[#0074FF] text-transparent bg-clip-text">
