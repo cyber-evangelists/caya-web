@@ -15,6 +15,6 @@
   "keywords": [],
   "license": "ISC",
   "dependencies": {
-    "firebase": "^10.7.2"
+    "firebase": "^10.12.2"
   }
 }
